@@ -31,11 +31,13 @@ Use `code/audit_esb_upgrade.py` after the runs. The reported numerical tables ar
 ## Citation and versioning
 
 The initial public package is tagged `v1.0.0`; the manuscript link update is
-released as `v1.0.1`. The versioned package is available at
-<https://github.com/williamjay1/rfnbo-hydrogen-europe-ijge/releases/tag/v1.0.1>.
-GitHub does not mint DOIs. If an archival DOI is later created through a
-recognized repository, it should be added to this README, `CITATION.cff`, and
-the manuscript data statement. No DOI is invented in this repository.
+released as `v1.0.1`. The archive trigger release `v1.0.2` is preserved in
+Zenodo and has the DOI
+<https://doi.org/10.5281/zenodo.22648097>. The corresponding GitHub release
+is available at
+<https://github.com/williamjay1/rfnbo-hydrogen-europe-ijge/releases/tag/v1.0.2>.
+GitHub itself does not mint DOIs; the Zenodo record is the archival DOI for
+this reproducibility package.
 
 ## Data and license note
 

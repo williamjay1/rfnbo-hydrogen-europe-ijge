@@ -7,7 +7,8 @@ not redistributed here because their original providers apply source-specific
 terms and because the project keeps the immutable raw repository separately.
 The public URLs, identifiers, processing notes, and result hashes are recorded
 in the manuscript references, run manifests, and `package_manifest.json`.
-The package includes `CITATION.cff` and does not contain a fabricated DOI.
+The package includes `CITATION.cff`. The archived v1.0.2 package has the
+Zenodo DOI <https://doi.org/10.5281/zenodo.22648097>.
 
 ## Canonical project layout
 

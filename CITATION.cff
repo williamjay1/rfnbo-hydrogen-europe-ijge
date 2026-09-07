@@ -7,9 +7,10 @@ authors:
     given-names: Junjie
     email: junjiezhang2024@shisu.edu.cn
 date-released: 2026-09-08
-version: "1.0.1"
+version: "1.0.3"
 repository-code: "https://github.com/williamjay1/rfnbo-hydrogen-europe-ijge"
-url: "https://github.com/williamjay1/rfnbo-hydrogen-europe-ijge/releases/tag/v1.0.1"
+url: "https://github.com/williamjay1/rfnbo-hydrogen-europe-ijge/releases/tag/v1.0.2"
+doi: "10.5281/zenodo.22648097"
 keywords:
   - RFNBO
   - renewable hydrogen
