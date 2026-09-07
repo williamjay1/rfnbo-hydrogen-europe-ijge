@@ -1,0 +1,5 @@
+experiment,design,fixed_or_varied,readout
+Primary public-data screen,18 complete 2019 cells; hourly origin-aware least-cost comparison,"Price, renewable profiles, fixed delivery target, cost assumptions and engineering caps",LCOH and capacity differences between nested feasible sets
+E1 temporal phase shift,"Four circular shifts (0, 2,190, 4,380, and 6,570 h) for each cell","Prices, EUA proxy, trigger count, target and caps fixed; wind and solar timing varied",Within-cell LCOH saving and capacity-response range
+E2 cross-period/profile sensitivity,DE-LU observed 2019-2022; BE observed and published day-ahead profiles 2021-2025,Hourly profile and year varied; five trigger cases compared,"Magnitude, branch differences, and published-profile sensitivity"
+E3 bounded engineering stress,Base case plus 12 fixed-seed Latin-hypercube draws in each primary cell,"CAPEX, yield, grid fee, battery/hydrogen efficiencies and EUA factor varied within declared bounds",Finite response and capacity ranges; no probabilistic interpretation

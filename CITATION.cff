@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated manuscript."
+title: "RFNBO Price Pathways and Renewable Hydrogen Plant Design: An Origin Aware Engineering Study of Selected European Market Areas"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Junjie
+    email: junjiezhang2024@shisu.edu.cn
+date-released: 2026-09-08
+version: "1.0.0"
+repository-code: "https://github.com/williamjay1/rfnbo-hydrogen-europe-ijge"
+keywords:
+  - RFNBO
+  - renewable hydrogen
+  - techno-economic optimization
+  - linear programming
+  - energy provenance
+  - European electricity markets
+abstract: "Reproducible source package for an origin aware engineering screen of RFNBO price pathway effects on renewable hydrogen plant design using selected European public data cells."

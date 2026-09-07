@@ -1,0 +1,57 @@
+{
+  "main_manuscript_pdf": "manuscript/IJGE_original_article_v8_revision.pdf",
+  "main_tex": "manuscript/IJGE_original_article_v8_revision.tex",
+  "bibliography": "manuscript/references.bib",
+  "target_journal": "International Journal of Green Energy",
+  "article_type": "Original article",
+  "font_policy": "Manuscript Noto Serif/Noto Sans and figures Arial TrueType; embedding checked after compilation",
+  "official_latex_template": "InteractCADLaTeX.zip; interact.cls",
+  "reference_style": "Taylor & Francis CSE 9 author date via tfcad.bst",
+  "template_files": [
+    "manuscript/interact.cls",
+    "manuscript/natbib.sty",
+    "manuscript/tfcad.bst",
+    "manuscript/epsfig.sty",
+    "manuscript/rotating.sty",
+    "manuscript/subfigure.sty"
+  ],
+  "figures": [
+    "figures/graphical_abstract_upgrade.pdf",
+    "figures/fig1_primary_capacity_response.pdf",
+    "figures/fig2_phase_shift_mechanism.pdf",
+    "figures/fig3_cross_period_profile_sensitivity.pdf",
+    "figures/fig4_parameter_stress_ranges.pdf",
+    "figures/graphical_abstract_upgrade.png",
+    "figures/fig1_primary_capacity_response.png",
+    "figures/fig2_phase_shift_mechanism.png",
+    "figures/fig3_cross_period_profile_sensitivity.png",
+    "figures/fig4_parameter_stress_ranges.png"
+  ],
+  "code": [
+    "code/__init__.py",
+    "code/project01_model.py",
+    "code/project01_joint_model.py",
+    "code/esb_upgrade_core.py",
+    "code/uncertainty.py",
+    "code/prepare_dev_data.py",
+    "code/prepare_public_eu_2019.py",
+    "code/prepare_public_cross_period.py",
+    "code/run_esb_phase_shift.py",
+    "code/run_esb_cross_period_hourly.py",
+    "code/run_esb_parameter_lhs.py",
+    "code/assemble_esb_parameter_lhs_corrected.py",
+    "code/audit_esb_upgrade.py"
+  ],
+  "reproducibility_readme": "REPRODUCIBILITY.md",
+  "citation_metadata": "CITATION.cff",
+  "word_count_source_tokens": 6279,
+  "optional_graphical_abstract": "figures/graphical_abstract_upgrade.pdf",
+  "editable_tables": [
+    "tables/table_1_study_design.csv",
+    "tables/table_2_public_inputs_and_assumptions.csv",
+    "tables/table_3_primary_2019_cell_results.csv",
+    "tables/table_4_cross_period_results.csv",
+    "tables/table_5_bounded_parameter_stress.csv"
+  ],
+  "raw_data_policy": "Provider raw files are not redistributed; obtain them from the public sources listed in data/DATA_SOURCES.md."
+}

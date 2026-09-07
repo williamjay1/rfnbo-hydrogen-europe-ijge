@@ -1,0 +1,7 @@
+Input,Source and access,Resolution and processing,Function and boundary
+"Wind and solar shapes","Energy-Charts public API","Hourly UTC; paired complete cells; no imputation","Country profile proxy; not plant SCADA"
+"Primary prices","Public Figshare ENTSO-E derived archive","Hourly UTC; 2019","Bidding area price proxy"
+"Cross period profiles and prices","Energy-Charts, SMARD, and Elia public series","Hourly UTC; retained profiles at least 99 percent complete","E2 sensitivity; Belgian day ahead profiles lack issue time proof"
+"EUA proxy","EEX primary auction reports","Daily auction value mapped to UTC hours","Price branch proxy only"
+"Costs and efficiencies","Danish Energy Agency source plus stated vector","Annualized base values and bounded E3 perturbations","Engineering screen; not project quotations"
+"Source line and import caps","Declared 250 MW and 1,000 MW constants","Applied hourly","Capacity stress proxy; not flow based network physics"
