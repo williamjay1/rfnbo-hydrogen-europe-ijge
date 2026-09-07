@@ -705,9 +705,6 @@ recorded in the package. The versioned reproducibility package is archived
 at Zenodo: \href{https://doi.org/10.5281/zenodo.22648097}{doi:10.5281/zenodo.22648097}.
 The corresponding source release is \url{https://github.com/williamjay1/rfnbo-hydrogen-europe-ijge/releases/tag/v1.0.2}.
 
-\bibliographystyle{tfcad}
-\bibliography{references}
-\clearpage
 \textbf{Table 1. Study design and evidence layers.}
 
 {\begingroup\small\begin{longtable}[]{@{}
@@ -928,35 +925,36 @@ SK & 11.77 & 11.20 & 12.06 & 0.86 & 0 & 13 \\
 \clearpage
 \begin{figure}[p]
 \centering
-\includegraphics[width=0.97\textwidth]{figures/fig2_phase_shift_mechanism.pdf}
-\refstepcounter{figure}\label{fig:phase-shift}
+\includegraphics[width=0.93\textwidth]{figures/fig2_phase_shift_mechanism.pdf}
+\caption{Temporal coincidence mechanism (E1). Prices and trigger counts are fixed while renewable profiles rotate; the within cell saving range has a median of 0.82 percentage points and reaches 4.86 points, showing the role of temporal alignment within the model. The zero shift point reproduces the primary screen reported in Table~3. Open and filled endpoints in panel b denote the minimum and maximum phase shift responses.}
+\label{fig:phase-shift}
 \end{figure}
 
 \clearpage
 \begin{figure}[p]
 \centering
-\includegraphics[width=0.97\textwidth]{figures/fig1_primary_capacity_response.pdf}
-\refstepcounter{figure}\label{fig:primary-capacity}
+\includegraphics[width=0.93\textwidth]{figures/fig1_primary_capacity_response.pdf}
+\caption{Primary screen: LCOH savings and capacity substitutions across 18 selected cells. SK reaches 11.77\% saving with 58.8 MW less solar capacity and 20.6 MW less electrolyzer capacity; EE shows zero response under the declared model boundary.}
+\label{fig:primary-capacity}
 \end{figure}
 
 \clearpage
 \begin{figure}[p]
 \centering
-\includegraphics[width=0.97\textwidth]{figures/fig3_cross_period_profile_sensitivity.pdf}
-\refstepcounter{figure}\label{fig:cross-period}
+\includegraphics[width=0.93\textwidth]{figures/fig3_cross_period_profile_sensitivity.pdf}
+\caption{Cross period sensitivity (E2). Joint savings range from 0.90\% to 18.78\% across 14 retained source year and profile cells; branch attribution varies by year. Belgian day ahead curves are treated as a published profile sensitivity, not as authenticated forecast vintage data.}
+\label{fig:cross-period}
 \end{figure}
 
 \clearpage
 \begin{figure}[p]
 \centering
-\includegraphics[width=0.97\textwidth]{figures/fig4_parameter_stress_ranges.pdf}
-\refstepcounter{figure}\label{fig:parameter-stress}
+\includegraphics[width=0.93\textwidth]{figures/fig4_parameter_stress_ranges.pdf}
+\caption{Bounded parameter stress (E3). The finite engineering box yields full minimum to maximum response ranges from 0.00\% to 12.06\% across the selected cells; the global saving endpoints are labeled in panel a and detailed cell endpoints are reported in Table~5. Twelve zero response joint comparisons are retained alongside positive responses. The ranges are engineering bounds, not probability intervals.}
+\label{fig:parameter-stress}
 \end{figure}
 
 \clearpage
-\section*{Figure captions}
-\noindent\textbf{Figure 1.} Temporal coincidence mechanism (E1). Prices and trigger counts are fixed while renewable profiles rotate; the within cell saving range has a median of 0.82 percentage points and reaches 4.86 points, showing the role of temporal alignment within the model. The zero shift point reproduces the primary screen reported in Table 3. Open and filled endpoints in panel b denote the minimum and maximum phase shift responses.\par
-\noindent\textbf{Figure 2.} Primary screen: LCOH savings and capacity substitutions across 18 selected cells. SK reaches 11.77\% saving with -58.8 MW solar and -20.6 MW electrolyzer capacity; EE shows zero response under the declared model boundary.\par
-\noindent\textbf{Figure 3.} Cross period sensitivity (E2). Joint savings range from 0.90\% to 18.78\% across 14 retained source year/profile cells; branch attribution varies by year.\par
-\noindent\textbf{Figure 4.} Bounded parameter stress (E3). The finite engineering box yields full minimum to maximum response ranges from 0.00\% to 12.06\% across the selected cells; the global saving endpoints are labeled in panel a and detailed cell endpoints are reported in Table 5. Twelve zero response joint comparisons are retained alongside positive responses. The ranges are engineering bounds, not probability intervals.\par
+\bibliographystyle{tfcad}
+\bibliography{references}
 \end{document}
