@@ -30,7 +30,12 @@ Use `code/audit_esb_upgrade.py` after the runs. The reported numerical tables ar
 
 ## Citation and versioning
 
-The initial public package is tagged `v1.0.0`. Once this repository is archived in a recognized repository, the archive DOI should be added to this README and to `CITATION.cff`. No DOI is invented in this repository.
+The initial public package is tagged `v1.0.0`; the manuscript link update is
+released as `v1.0.1`. The versioned package is available at
+<https://github.com/williamjay1/rfnbo-hydrogen-europe-ijge/releases/tag/v1.0.1>.
+GitHub does not mint DOIs. If an archival DOI is later created through a
+recognized repository, it should be added to this README, `CITATION.cff`, and
+the manuscript data statement. No DOI is invented in this repository.
 
 ## Data and license note
 
